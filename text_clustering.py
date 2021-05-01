@@ -7,7 +7,7 @@ from scipy import signal
 
 ## read image
 
-img = cv2.imread('natural_scene_txt_imag.jpeg',0)
+img = cv2.imread('natural_scene.jpg',0)
 freq_img = np.fft.fft2(img)
 
 
